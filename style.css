@@ -1,0 +1,361 @@
+.body{
+    margin: auto;
+    border: 100px;color: blue ;
+}
+.Header{
+    text-align:center;
+    font-family:fantasy;
+    font-size: 35px;
+    position: absolute;
+    width: 1440px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    background: #66B578;
+}
+.Flex-container{
+    display: flex;
+    background-color: blue;
+    margin: 10px;
+    padding:40px;
+    font-size: 30px;
+}
+.Home{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20;
+    position: absolute;
+    width: 100px;
+    height: 83px;
+    left: 1341px;
+    top: 0px;
+    background: #E42B2B;
+}
+.Over{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20;
+    position: absolute;
+    width: 110px;
+    height: 83px;
+    left: 1231px;
+    top: 0px;
+    background: #E24444;
+}
+.Bezoek{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20;
+    position: absolute;
+    width: 100px;
+    height: 83px;
+    left: 1131px;
+    top: 0px;
+    background: #E26969;
+}
+.Tickets{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20;
+    position: absolute;
+    width: 100px;
+    height: 83px;
+    left: 1031px;
+    top: 0px;
+    background: #CA8181;
+}
+.Main{
+    display: flex;
+    position: absolute;
+    width: 1131px;
+    height: 818px;
+    left: 0px;
+    top: 83px;
+    background: rgba(241, 240, 231, 0.1);
+    background-image:url(Brachiosaurus_1592830232.jpg) ;
+    background-repeat: no-repeat;
+}
+.grid-container{
+    position:absolute ;
+    width: 310px;
+    height: 818px;
+    left: 1131px;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: auto;
+    background-color: blue;
+}
+.Landschap{
+    position: absolute;
+    grid-column: 1/4;
+}
+.img01{
+    width:310px;
+    height:272.66px;
+    object-fit: cover;
+}
+.Vulkaan{
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.img02{
+    width:155px;
+    height:272.66px;
+    object-fit: cover;
+}
+.Brontesaurus{
+    position: absolute;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.img03{
+    width:155px;
+    height:272.66px;
+    object-fit: cover;
+}
+.T-rex{
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.img04{
+    width:310px;
+    height:272.66px;
+    object-fit: cover;
+}
+.Button-container{ 
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height:60px;
+    padding-top: 180px;
+    padding-left: 200px;
+}
+.btn-1{
+    width: 50%;
+    height: 100%; 
+    border: none;   
+    background-color: rgb(9, 117, 180);
+}
+.btn-2{
+    width: 50%;
+    height: 100%;    
+    border: none;
+    background-color:yellowgreen;
+}
+.btn-3{
+    width: 100%;
+    height: 100%;    
+    border: none;
+    background-color:yellowgreen;
+    font-family: fantasy;
+    font-size: 25px;
+}
+.Footer{
+    position: absolute;
+    width: 1440px;
+    height: 123px;
+    left: 0px;
+    top: 901px;
+    background: rgba(16, 15, 19, 0.4);
+}
+.div-container{
+    padding:0;
+    display: flex;
+    flex-direction: row;
+}
+.div-container>*{
+    flex-basis: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+@media screen and (max-width:900px)
+{
+    .body{ 
+        width: 375px;
+        height: 770px;}
+    .Header{
+        position:absolute;
+        width: 375px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+        background: #66B578;
+        }
+    .Flex-container{
+        display: flex;
+        align-content: center;
+        background-color: blue;}
+
+    .Home{
+        position: absolute;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        width: 55px;
+        height: 21.25px;
+        left: 1px;
+        top: 0px;
+        background: #E42B2B;
+        background:transparent;
+        }
+    .Over{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute; 
+        width: 55px;
+        height: 21.25px;
+        left: 1px;
+        top: 21.25px;
+        background:transparent;
+        }
+    .Bezoek{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        width: 55px;
+        height: 21.25px;
+        left: 1px;
+        top: 42.5px;
+        background:transparent;
+        }
+    .Tickets{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        position: absolute;
+        width: 55px;
+        height: 21.25px;
+        left: 1px;
+        top: 63.75px;
+        background:transparent;
+        }  
+    .Main{
+        display: flex;
+        position: absolute;
+        width: 375px;
+        height: 400px;
+        left: 0px;
+        top: 100px;
+        background: rgba(241, 240, 231, 0.1);
+        background-image:url(Brachiosaurus_1592830232.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 375px;
+        } 
+    h1{
+        font-size: 15px;
+        }
+    .grid-container{
+        position:absolute ;
+        width: 310px;
+        height: 818px;
+        left: 1131px;
+        top: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column: auto;
+        background-color: blue;
+        }      
+    .Landschap{
+        position: absolute;
+        grid-column: 1/4;
+        }
+    .img01{
+        width:310px;
+        height:272.66px;
+        object-fit: cover;
+        }
+    .Vulkaan{
+         position: absolute;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        }
+    .img02{
+        width:155px;
+        height:272.66px;
+        object-fit: cover;
+        }
+    .Brontesaurus{
+        position: absolute;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        }
+    .img03{
+        width:155px;
+        height:272.66px;
+        object-fit: cover;
+        }
+    .T-rex{
+        position: absolute;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        }
+    .img04{
+        width:310px;
+        height:272.66px;
+        object-fit: cover;
+        }
+    .Button-container{ 
+        display: flex;
+        flex-direction: row;
+        width: 170px;
+        height:85px;
+        padding-top: 320px;
+        padding-left: 120px;
+        }
+    .btn-1{
+        width: 50%;
+        height: 100%; 
+        border: none;   
+        background-color: rgb(9, 117, 180);
+        }
+    .btn-2{
+        width: 50%;
+        height: 100%;    
+        border: none;
+        background-color:yellowgreen;
+        }
+    .btn-3{
+         width: 100%;
+        height: 100%;    
+        border: none;
+        background-color:yellowgreen;
+        font-family: fantasy;
+        font-size: 25px; 
+    }      
+    .Footer{
+        position: absolute;
+        width: 375px;
+        height: 374px;
+        left: 0px;
+        top: 592px;
+        background: rgba(16, 15, 19, 0.4);
+    }
+    .div-container{
+        display: flex;
+        flex-direction: column;
+    }}
+
